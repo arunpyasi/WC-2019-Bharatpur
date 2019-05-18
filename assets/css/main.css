@@ -1,0 +1,72 @@
+
+        #main section .container{
+            padding-bottom: 2em;
+            padding-top : 2em;
+        }
+
+        section .title{
+            font-size:20px;
+        }
+        #feature-section, #speaker-section, #our-sponsors{
+            background: rgb(236, 236, 236);
+
+        }
+        .schedule-box {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(137deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(5, 85, 198, 1) 0%, rgba(64, 220, 255, 1) 100%);
+            height: 200px;
+            border:none;
+            border-radius: 0;
+        }
+
+        .schedule-box:after {
+            content: "";
+            height: 100%;
+        }
+
+        .schedule-box h5 {
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+        
+        }
+        .schedule-box .card-body{
+            margin-top: 4em;
+        }
+        #exploreimage-wrapper img{
+            height: auto;
+            width: 100%;
+
+		}
+		 .wcorg-speakers .row{
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+
+        }
+        
+        #our-sponsors [class^="wcorg-sponsor-level"] h2 {
+            margin-top: 30px;
+            padding: 10px 10px;
+        }
+        
+        .wcorg-sponsor-level-platinum,.wcorg-sponsor-level-speaker-org-party h2{
+        background: linear-gradient(to left,rgb(182, 218, 223) 10%,rgb(117, 139, 240));
+        }
+        .wcorg-sponsor-level-gold,.wcorg-sponsor-level-micro h2{
+        background: linear-gradient(to left,rgb(212, 223, 165) 10%,rgb(248, 215, 161));
+        }
+
+        .wcorg-sponsor-level-silver,.wcorg-sponsor-level-community h2{
+            background: linear-gradient(to left,rgb(210, 230, 233) 10%,rgb(174, 206, 238));
+            }
+
+        .wcorg-sponsor-level-bronze,.wcorg-sponsor-level-inkind h2{
+            background : linear-gradient(to left,rgb(218, 214, 213) 10%,#D9B69C)
+        }
+    
+        .venue-box {
+            display: inline-block;
+            background: #f5f5f5;
+            text-align: center;
+            padding: 35px 20px 10px 10px;
+        }
